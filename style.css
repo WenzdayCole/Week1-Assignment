@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blueviolet;
+}
+
+.header{
+    color: yellow;
+    /* Cameron put this in chat, to add outline around text  */
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #040404;
+  paint-order: stroke;
+    font-family:monospace;
+    font-size: 40px;
+}
+.div1{
+    position: absolute;
+    left: 650px;
+    top: 20px;
+}
