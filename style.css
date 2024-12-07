@@ -19,3 +19,46 @@
     left: 650px;
     top: 20px;
 }
+
+.logo{
+    /* display: flex;
+    flex-direction: column;
+    align-content: left;
+    flex-wrap: wrap; */
+    /* Don't know what to do with that ^ */
+    position:absolute;
+    bottom: 200px;
+    left: 15px;
+}
+
+.sub-heading{
+    color: black;
+}
+
+.description{
+    font-size: 15px;
+    font-family: monospace;
+    color: yellow;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #040404;
+    paint-order: stroke;
+      font-family:monospace;
+      position: absolute;
+      left: 0px;
+      bottom: 250x;
+  }
+
+  .all-alone{
+    position: absolute;
+    left: 650px;
+    top: 80px;
+  } 
+
+  /* .all-alone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 10px solid black;
+    height: 90vh;
+  } */
